@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 210px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+header nav i {
+  color: #fff;
+  font-size: 25px;
+}
+
+header section h1 {
+  font: 300 52px "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  margin-top: 215px;
+}
+header section form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+header section input {
+  height: 40px;
+  width: 330px;
+  font: 400 16px "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+}
+
+header section button {
+  width: 120px;
+  background-color: #fd4f32;
+  font: 700 16px "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
+.dest {
+  background-color: #eee;
+}
+.dest .container > h3 {
+  font: 400 16px "Montserrat", sans-serif;
+  letter-spacing: 0;
+  color: #323232;
+  padding-top: 60px;
+}
+.dest .container > p {
+  font: 400 15px "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #8b8b8b;
+  margin-top: 15px;
+}
+.destinations {
+  display: flex;
+  margin-top: 40px;
+  padding-bottom: 70px;
+}
+.destimg {
+  position: relative;
+}
+.destimg span {
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font: 400 12px "Montserrat", sans-serif;
+  letter-spacing: 0;
+  color: #fff;
+}
+.destination {
+  background-color: #fff;
+  margin-right: 15px;
+}
+.destination h3 {
+  font: 600 14px "Montserrat", sans-serif;
+  letter-spacing: 0;
+  color: #323232;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.destination p {
+  font: 400 13px/19px "Open Sans", sans-serif;
+  color: #696969;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  padding-bottom: 15px;
+}
+.uc {
+  padding-bottom: 70px;
+}
+.uc h2 {
+  font: 300 52px "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  color: #323232;
+  padding-top: 80px;
+}
+.uc section {
+  margin-top: 55px;
+  display: flex;
+}
+.uc article {
+  margin-right: 70px;
+}
+.uc h3 {
+  font: 600 16px "Montserrat", sans-serif;
+  letter-spacing: 0;
+  color: #323232;
+  text-transform: uppercase;
+}
+.uc p {
+  font: 400 15px/22px "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #8b8b8b;
+  width: 280px;
+  margin-top: 25px;
+}
+
+.subscribe h4 {
+  font: 400 16px "Montserrat", sans-serif;
+  letter-spacing: 0;
+  color: #323232;
+  text-align: center;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.subscribe input {
+  height: 40px;
+  width: 330px;
+  font: 400 16px "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  background-color: #eee;
+}
+
+.subscribe button {
+  width: 120px;
+  background-color: #fd4f32;
+  font: 700 16px "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+footer {
+  background-color: #eee;
+  padding: 30px 0;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer nav ul {
+  display: flex;
+}
+footer p {
+  font: 400 14px/22px "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #8b8b8b;
+}
+footer nav a {
+  font: 600 14px "Montserrat", sans-serif;
+  letter-spacing: 0;
+  color: #323232;
+  margin-right: 20px;
+}
+
+
+/**/
+
+@media only screen and (max-width: 1100px) {
+      .container{
+        padding-left:15px ;
+        padding-right:15px ;
+      }
+      .destinations, .uc section{
+        flex-direction: column;
+      }
+      .destinations img{
+        width: 100%;
+        height: auto;
+      }
+      .destination, .uc article{
+        margin-top: 30px;
+      }
+      .destination h3 {
+        text-align: center;
+      }
+      .destination p {
+        width: 100%;
+        padding: 5%;
+      }
+      .uc article{
+        text-align: center;
+        margin-right: 0;
+      }
+      .uc p {
+        margin: auto;
+        margin-top: 10px;
+      }
+      footer .container {
+        flex-direction: column;
+      }
+      
+}

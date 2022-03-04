@@ -1,0 +1,91 @@
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+CSS rules to
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#81cdd1 ;
+}
+.esas{
+    width: 600px;
+    height: 500px;
+    background-color: #fc6539;
+    margin: auto;
+    margin-top: 125px;
+}
+.ust{
+    
+    background-color: #fc6539;
+    padding-bottom: 50px;
+    border-radius:  0 0 5px 5px ;
+
+}
+.en{
+    width: 500px;
+    margin: auto;
+}
+.ust h1{
+    font: 800 24px/45px;
+    font-size: 24px;
+line-height: 45px;
+color: #ffffff;
+text-align: center;
+font-family: "Open Sans";
+padding-top: 40px;
+}
+.ust input{
+    width: 100%;
+    height: 70px;
+    background-color: #ba3c24;
+    border: none;
+    outline: none;
+    font: 400 24px/45px;
+    
+color: #ffffff;
+
+font-family: "Open Sans";
+padding-left: 20px;
+border-radius: 5px;
+}
+
+.ust form input:nth-child(1){
+margin-top: 40px;
+}
+.ust form input:nth-child(2){
+    margin-top: 25px;
+}
+
+
+.ust input::placeholder{
+    color: white;
+    }
+    .alt{
+        background-color: #b93b23;
+        height: 170px;
+        padding-top: 50px;
+    }
+    .alt a{
+        font: 400 24px/45px "Open Sans" ;
+        
+color: #ffffff;
+text-decoration: none;
+margin-right: 50px;
+
+    }
+    .alt button{
+    font: 400 24px/45px ;
+
+color: #ffffff;
+
+font-family: "Open Sans";
+        width: 250px;
+        height: 70px;
+        color: #b93b23;
+        border-radius: 5x;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+    }

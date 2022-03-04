@@ -1,0 +1,880 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    max-width: 980px;
+    margin: auto;
+}
+
+header{
+    background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+     background-size: 100%;
+     height: 660px;
+}
+.yuxari{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.yuxari li a{
+    font-size: 16px;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;;
+text-decoration: none;
+margin-right: 20px;
+}
+.yuxari ul{
+    display: flex;
+    margin-left: 30px;
+    
+    
+}
+
+.active{
+    font-size: 16px;
+color: #ffffff;
+font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+border-top: solid 10px #53d153;
+}
+.input ::placeholder{
+    font-size: 16px;
+color: #111111;
+font-weight: 300;
+font-family:'Montserrat', sans-serif;
+text-align: center;
+}
+.input{
+    position: relative;
+    
+    font-size: 180px;
+    outline: none;
+    border: none;
+    border-radius: 10%;
+    
+}
+.abc{
+margin-right: 30px;
+}
+.bir a{
+    position: absolute;
+    right: 45px;
+    color: black;
+    font-size: 15px;
+    top: 15px;
+    
+}
+.logo{
+    margin-right: 340px;
+}
+header .container h1{
+    font-size: 55px;
+color: #ffffff;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-top: 250px;
+}
+.container .art button{
+    background-color:#53d153 ;
+    outline: none;
+    border: none;
+    width: 210px;
+    height: 50px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 390px;
+    border-radius: 30px;
+}
+.container .art button ::placeholder{
+    font-size: 22px;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+.container .and button{
+background-color:#bfbdbd ;
+width: 120px;
+height: 30px;
+border-radius: 30px;
+color: black;
+margin-top: 190px;
+margin-bottom: 20px;
+margin-left: 430px;
+
+outline: none;
+border: none;
+position: relative;
+
+}
+.and button ::placeholder{
+    font-size: 16px;
+color: #111111;
+font-weight: 300;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+}
+.container .and1 a i{
+    position: absolute;
+    right: 627px;
+    color:black;
+    font-size: 10px;
+    top: 630px;
+}
+.in input{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 175px;
+    height: 25px;
+    background-color: #d6d4d4;
+}
+
+.iki{
+    background-color: white;
+    height: 577px;
+}
+.iki h1{
+    margin: auto;
+    margin-top: 42px;
+    font-size: 20px;
+letter-spacing: 4px;
+color: #828181;
+font-weight: 300;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin-bottom: 13px;
+
+}
+.iki hr{
+    
+    width: 43px;
+    margin: auto;
+    color: #818181;
+    margin-bottom: 13px;
+}
+
+.iki p{
+    
+    font-size: 16px;
+color: #b7b3b3;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+}
+
+.fonts{
+    display: flex;
+
+    margin-top: 70px;
+    
+    
+}
+.dca{
+    background-color: #e0f3e0;
+    width: 140px;
+    height: 142px;
+    border-radius: 20px;
+    margin-right: 247px;
+    
+}
+.dca i{ 
+    padding-left: 27px;
+    padding-top: 30px;
+    font-size: 88px;
+    width: 92px;
+    height: 76px;
+    margin: auto;
+    color: #53d153;
+    
+}
+.ikinci .dca i{
+    padding-left: 22px;
+}
+.fonts h2{
+    
+   width: 160px;
+    margin-top: 58px;
+    font-size: 24px;
+color: #828181;
+font-weight: bold;
+font-family: "Proxima Nova";
+text-align: center;
+}
+.fonts p{
+    margin-left: -67px;
+    width: 270px;
+    margin-top: 25px;
+height: 66px;
+font-size: 15px;
+color: #828181;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+
+}
+.iki .bu button{
+    margin-top: 28px;
+height: 31px;
+width: 120px;
+background-color: #53d153;
+border: none;
+outline: none;
+font-size: 16px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Proxima Nova";
+text-align: center;
+border-radius: 25px;
+border-bottom: 73px;
+}
+@media only screen and (max-width: 600px){
+    .yuxari{
+    margin: auto;
+    width: auto;
+    height: auto;
+    }
+    .yuxari .in input{
+        margin: auto;
+    }
+    .work .container{
+        margin: auto;
+    }
+}
+
+.work{
+    height: 850px;
+    background-color: #54d154;
+}
+.work h1{
+    font-size: 20px;
+letter-spacing: 4px;
+color: #207b20;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 42px;
+padding-bottom: 13px;
+}
+.work .container hr{
+    
+    width: 43px;
+    margin: auto;
+   border: 1px solid #1f7b1f;
+    
+}
+.work p{
+    margin-top: 13px;
+    font-size: 16px;
+    color: #2b9b2b;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;  
+    margin-bottom: 62px;
+}
+.work .bu{
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 60px;
+    
+}
+.work .bu1 button{
+background-color: #2b9b2b;
+width: 123px;
+height: 32px;
+outline: none;
+border: none;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px ;
+font-size: 16px;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+.work .bu2 button{
+    height: 32px;
+    width: 88px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+color: #2b9b2b;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+.work .bu3 button{
+    height: 32px;
+    width: 67px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 20px;
+border-bottom-right-radius: 20px ;
+font-size: 16px;
+color: #2b9b2b;
+font-family:  'Montserrat', sans-serif;
+text-align: center;
+
+}
+.sekiller img{
+width: 160px;
+height: 160px;
+margin-right: 30px;
+
+}
+.sekiller .sekil1{
+    padding-bottom: 28px;
+}
+.but{
+    padding-top: 67px;
+    margin-left: 390px;
+    margin-bottom: 50px;
+}
+.container .but button{
+    background-color:#2b9b2b ;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 16px;
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+
+      margin-left: 5px;
+    outline: none;
+    border: none;
+    position: relative;
+    
+    }
+  .work .for a i{
+      position: absolute;
+      color:white;
+      right: 584px;
+      top: 1972px;
+  }  
+  .happy{
+      height: 340px ;
+  }
+  .happy h1{
+      padding-top: 40px;
+      font-size: 20px;
+letter-spacing: 4px;
+color: #828181;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+margin-bottom: 13px;
+  }
+  .happy .container hr{
+    
+    width: 43px;
+    margin: auto;
+   border: 1px solid #818181;
+   margin-bottom: 13px;
+}
+.happy h4{
+    font-size: 16px;
+color: #b7b3b3;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+margin-bottom: 50px;
+}
+.happy p{
+    font-size: 16px;
+color: #444444;
+font-family: "Open Sans";
+text-align: center;
+width: 400px;
+margin-left: 110px;
+margin-bottom: 22px;
+}
+.hap img{
+border-radius: 50%;
+width: 43px;
+height: 43px;
+border: solid 1px  #cccccc;
+padding: 6px;
+}
+.hap{
+    display: flex;
+    margin-left: 400px;
+    margin-bottom: 70px;
+}
+.adlar h5{
+    font-size: 16px;
+color: #444444;
+font-family: "Proxima Nova";
+text-align: center;
+
+}
+.adlar h6{
+    font-size: 16px;
+color: #cccccc;
+font-weight: bold;
+font-family: "Proxima Nova";
+text-align: center;
+}
+.az{
+display: flex;
+justify-content: space-between;
+margin-right: 100px;
+}
+.az a i{
+    color: #dfdfdf;
+    
+}
+.client{
+    height: 500px;
+    background-color: #f2f1f1;
+}
+.client h1{
+    padding-top: 40px;
+    font-size: 20px;
+letter-spacing: 4px;
+color: #828181;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+margin-bottom: 13px;
+}
+.client hr{
+    width: 43px;
+    margin: auto;
+   border: 1px solid #818181;
+   Margin-bottom: 13px;
+}
+.client p{
+    font-size: 16px;
+color: #b7b3b3;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+margin-bottom: 80px;
+}
+
+
+.pic a i{
+    font-size: 60px;
+    color:#818181 ;
+    margin: auto;
+    margin-right: 135px;
+    margin-bottom: 60px;
+    
+}
+.pic{
+    margin: auto;
+margin-left: 150px;
+}
+.container .one button{
+    
+    background-color: #dddcdc ;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 16px;
+color: #a59d9d;
+font-family: 'Montserrat', sans-serif;
+
+      margin-left: 5px;
+    outline: none;
+    border: none;
+    position: relative;
+    
+    }
+    .container .one{
+    margin-left: 390px;
+    }
+    .foor a i{
+        position: absolute;
+        color:white;
+        right: 595px;
+        top: 2905px;
+        margin-bottom: 70px;
+    }  
+    .team{
+        background-color: #53d153;
+        height: 480px;
+    }
+    .team h1{
+        font-size: 20px;
+letter-spacing: 4px;
+color: #207b20;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 40px;
+margin-bottom: 13px;
+    }
+    .team hr{
+        width: 43px;
+        margin: auto;
+       border: 1px solid #1f7b1f;
+       Margin-bottom: 13px;
+    }
+    .team p{
+        font-size: 16px;
+color: #2b9b2b;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+margin-bottom: 50px ;
+    }
+    .pi  img{
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        margin-right: 50px;
+        
+      margin-left: 22px;
+    margin-bottom: 50px; 
+       
+    }
+    .pi{
+      display: flex;
+
+
+       
+    }
+    .pi hr{
+        transform: rotate(90deg);
+        width: 80px;
+        margin-right: 50px;
+        
+      margin-left: 40px; 
+    }
+    .pi h1{
+        font-size: 16px;
+color: #ffffff;
+font-family:  "Montserrat";
+text-align: center;
+margin-bottom: 13px;
+margin-right: 20px;
+    }
+    .ar{
+        display: flex;
+        margin-left: 50px;
+    }
+    .ar i{
+        margin-right: 10px;
+        
+    }
+    .ar1 a i{
+    border: solid  1px  #d0b7b2;
+    border-radius: 50%;
+        color: #da8ba1;
+        
+        
+    }
+    .ar1{
+        font-size: 18px;
+        margin-left: 5px;
+        margin-top: 6px;
+    }
+    .ar{
+        width: 85px;
+        height: 30px;
+        background-color: #c5e9c5;
+        border-radius: 35px;
+               
+    }
+    .ar2 a i{
+        padding-left: 5px;
+        font-size: 10px;
+    color: #c5e9c5;
+    
+    }
+    .ar3 {
+        background-color: #00abed ;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-top: 6px;
+        margin-right: 5px;
+        font-size: 18px;
+        
+    }
+    .ar3 i{
+        
+        padding-left: 5px;
+        font-size: 10px;
+    color: #c5e9c5;  
+    }
+
+    .ar2{
+        background-color: #0061ff ;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-top: 6px;
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    .ar{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 60px;
+    }
+    .foot{
+        background-color: #3eba3e;
+        height: 90px;
+    }
+    .foot .dbu button{
+        margin-top: 23px;
+        margin-left: 370px;
+        margin-bottom: 23px;
+    }
+    .container .dbu button{
+    
+        background-color: #53d153 ;
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 19px;
+color: #ffffff;
+font-weight: 300;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+    
+          
+        outline: none;
+        border: none;
+        
+        
+        }
+        .recent{
+            background-color: #333333;
+            height: 440px;
+        }
+        .recent h1{
+            padding-top: 30px;
+            font-size: 16px;
+letter-spacing: 3px;
+color: #dddddd;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+margin-bottom: 13px;
+        }
+        .recent hr{
+            
+                width: 43px;
+                margin: auto;
+               border: 1px solid #dddddd ;
+               Margin-bottom: 25px;
+            }
+        .recent p{
+            width: 316px;
+height: 253px;
+font-size: 16px;
+color: #cccccc;
+font-family: "Proxima Nova";
+text-align: center;
+margin-bottom: -60px;
+        }
+        .esas{
+            display: flex;
+            justify-content: space-between;
+        
+            
+        }
+        
+        .recent img{
+            height: 54px;
+            width: 54px;
+            border-radius: 5px;
+        }
+        .recent h4{
+            font-size: 16px;
+color: #cccccc;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+        }
+        .recent  h4{
+            margin-left: 67px;
+            margin-top: -54px ;
+            padding-bottom: 10px;
+        }
+
+        
+        
+        .recent .we .ay1{
+            width: 80px;
+            height: 20px;
+            background-color: #53d153;
+            margin-left: 67px;
+            border-radius: 3px;
+        }
+        .recent h5{
+            font-size: 12px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Montserrat";
+            text-align: center;  
+            padding-top: 3px;
+        }
+        .we1{
+            padding-top: 12px;
+        }
+        .we2{
+            padding-top: 12px;
+        }
+        .we3{
+            padding-top: 12px;
+        }
+        .we4{
+            padding-top: 12px;
+        }
+        .we1 .ay1{
+            width: 80px;
+            height: 20px;
+            background-color: #ffba00;
+            margin-left: 67px;
+            border-radius: 3px;
+        }
+
+        .we2 .ay1{
+            width: 108px;
+            height: 18px;
+            margin-left: 67px;
+            border-radius: 3px;
+            background-color: #089cea;
+        }
+        .we3 .ay1{
+            width: 48px;
+            height: 18px ;
+            background-color: #f34c03;
+            border-radius: 3px;
+            margin-left: 67px;
+        }
+        .we4 .ay1{
+            width: 80px;
+            height: 20px;
+            background-color: #ffba00;
+            margin-left: 67px;
+            border-radius: 3px;
+        }
+        .az .ar{
+            margin-left: 110px;
+        }
+        .third p{
+            font-size: 14px;
+            color: #cccccc;
+            font-weight: 300;
+            font-family: "Proxima Nova";
+            text-align: center;
+        }
+        .as{
+            
+            margin-top: -160px;
+        }
+        .as input{
+            height: 33px;
+            width: 323px;
+            border: none;
+            outline: none;
+            background-color: #444444;
+            font-size: 16px;
+color: #777777;
+font-family: "Proxima Nova";
+padding-left: 15px;
+border-radius: 3px;
+        }
+        .as1{
+            margin-bottom: 3px ;
+        }
+        .as2{
+            margin-bottom: 3px ;
+        }
+        .as3 textarea{
+            height: 130px;
+            width: 323px;
+            border: none;
+            outline: none;
+            background-color: #444444;
+            font-size: 16px;
+color: #777777;
+font-family: "Proxima Nova";
+padding-top: 52px;
+padding-left: 48px;
+border-radius: 3px;
+        }
+        .as3{
+            padding-bottom: 3px ;
+        }
+        .as4 button{
+           height: 30px; 
+           width: 323px;
+           border: none;
+           outline: none;
+           background-color: #2b9b2b;
+           border-radius: 3px;
+           font-size: 14px;
+color: #ffffff;
+font-family: "Proxima Nova";
+
+        }
+        .son{
+            background-color: #212121 ;
+            height: 150px ;
+        }
+        .son h1{
+            font-size: 16px;
+letter-spacing: 3px;
+color: #101010;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 26px;
+padding-bottom: 8px;
+        }
+        .son hr{
+            width: 43px;
+            margin: auto;
+           border: 1px solid black;
+           margin-bottom: 25px;
+        }
+        .pho1 img{
+            width: 95px;
+            height: 45px;
+        }
+        .pho2 img{
+            width: 95px;
+            height: 45px;
+        }
+        .pho3 img{
+          width: 165px;  
+          height: 45px ;
+        }
+        .pho4 img{
+            width: 340px;
+            height: 38px;
+        }
+        .pho{
+            display: flex;
+            
+        }
+        .pho img{
+            margin-right: 105px;
+        }
+       .footer {
+            height: 35px;
+            background-color: #111111;
+        }
+        .footer h1{
+            font-size: 16px;
+color: #ffffff;
+font-family: "Proxima Nova";
+text-align: center;
+padding-top: 10px;
+position: relative;
+        }
+        .footer a i{
+            color: white;
+            position: absolute;
+            right: 670px;
+            top: 4138px;
+            
+
+            
+        }
+       

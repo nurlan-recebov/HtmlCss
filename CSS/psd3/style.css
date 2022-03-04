@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    max-width: 1000px;
+    margin: auto;
+    
+
+    
+}
+header{
+    
+background-image: url("img/bg1.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+padding-bottom: 210px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+header nav i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+header section h1{
+    font-size: 52px;
+letter-spacing: 2px;
+color: #ffffff;
+font-weight: 300;
+font-family:'Open Sans', sans-serif;
+text-align: center;
+margin-top: 215px;
+}
+header section form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+header section input{
+    height: 40px;
+    width: 330px;
+    font-size: 16px;
+letter-spacing: 1px;
+color: #8b8b8b;
+font-weight: 400;
+font-family:'Open Sans', sans-serif;
+text-align: center;
+padding-left: 15px;
+outline: none;
+border: none;
+}
+header section button{
+    width: 120px;
+    background-color: #fd4f32;
+    outline: none;
+border: none;
+font-size: 16px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 700;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+.dest{
+    background-color: #eeeeee;
+}
+.dest .container > h3{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: 'Montserrat', sans-serif;
+
+padding-top: 59px;
+}
+.dest .container > p{
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+     margin-top: 15px;
+
+}
+.destinations{
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+.destimg{
+    position: relative;
+}
+.destimg span{
+    color: white;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 12px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: right;
+}
+.destination{
+    background-color: white;
+    margin-right: 15px;
+}
+.destination h3{
+    font-size: 14px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+margin-top: 20px;
+margin-left: 20px;
+text-transform: uppercase;
+}
+.destination p{
+    width: 204px;
+height: 75px;
+font-size: 13px;
+line-height: 19px;
+color: #696969;
+font-weight: 400;
+font-family: "Open Sans";
+margin-top: 20px ;
+margin-left: 20px;
+width: 200px;
+padding-bottom: 15px;
+}
+.uc h3{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 600;
+font-family: "Montserrat";
+text-align: center;
+text-transform: uppercase;
+}
+.uc h2{
+    font-size: 52px;
+letter-spacing: 2px;
+color: #323232;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+padding-top: 80px;
+padding-bottom: 55;
+}
+.uc section{
+    margin-top: 55px;
+    display: flex;
+}
+.uc p{
+    font-size: 15px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+width: 280px;
+margin-top: 25px;
+
+}
+.uc article{
+    margin-right: 70px;
+}
+.subscribe h4{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+margin-top: 80px;
+text-transform: uppercase;
+}
+.subscribe form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.subscribe input{
+    height: 40px;
+    width: 330px;
+    font-size: 16px;
+letter-spacing: 1px;
+color: #8b8b8b;
+font-weight: 400;
+font-family:'Open Sans', sans-serif;
+text-align: center;
+padding-left: 15px;
+outline: none;
+border: none;
+background-color: #eeeeee;
+}
+.subscribe button{
+    width: 120px;
+    background-color: #fd4f32;
+    outline: none;
+border: none;
+font-size: 16px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 700;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+.dest{
+    background-color: #eeeeee;
+}
+.dest .container > h3{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: 'Montserrat', sans-serif;
+}
+.uc{
+    padding-bottom: 70px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+footer nav ul{
+    display: flex;
+}
+footer{
+    background-color: #eee;
+    padding: 30px 0;
+}
+footer p{
+    font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+footer nav a{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+}

@@ -1,0 +1,174 @@
+.umumi{
+    position: relative;
+    height: 660px;
+    overflow: hidden;
+    width: 300px;
+}
+.umumi {
+    width: 300px;
+    height: 660px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 5.2s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: orchid;}
+  25%  {background-color: purple;}
+  50%  {background-color: orange;}
+  100% {background-color: green;}
+  }
+.iki{
+    position: absolute;
+    left: -250px;
+    bottom: 0;
+    width: 200px;
+    height: 250px;
+    background-image: url(2.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+z-index: 1;
+animation-name: iki;
+animation-duration: 5.2s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+
+}
+@keyframes iki{
+    from{
+        left: -350px;
+
+    }
+    to{
+        left: 100%;
+    }
+}
+.uc{
+    position: absolute;
+    right: -250px;
+    bottom: -10px;
+    width: 200px;
+    height: 250px;
+    background-image: url(3.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+z-index: 1;
+animation-name: uc;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+
+}
+
+@keyframes uc{
+    from{
+        right: -250px;
+
+    }
+    to{
+        right: 100%;
+    }
+}
+.dord{
+    position: absolute;
+    right: -250px;
+    bottom: 0px;
+    width: 200px;
+    height: 250px;
+    background-image: url(5.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+z-index: 1;
+animation-name: uc;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+
+}
+
+@keyframes dord{
+    from{
+        right: -250px;
+
+    }
+    to{
+        right: 100%;
+    }
+}
+
+.alti{
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translate(-50%,0);
+    width: 200px;
+    height: 250px;
+    background-image: url(images.png);
+    border-radius: 8px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+z-index: 1;
+animation-name: alti;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+@keyframes alti{
+    from{
+        top: -100px;
+
+    }
+    to{
+        top: 100px;
+    }
+}
+.bes{
+    position: absolute;
+    left: -250px;
+    bottom: 0;
+    width: 200px;
+    height: 250px;
+    background-image: url(4.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+z-index: 1;
+animation-name: bes;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+@keyframes bes{
+    from{
+        left: -250px;
+
+    }
+    to{
+        left: 100%;
+    }
+}
+.alti{
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translate(-50%,0);
+    width: 200px;
+    height: 250px;
+    background-image: url(images.png);
+    border-radius: 25%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+z-index: 1;
+animation-name: alti;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+@keyframes alti{
+    from{
+        top: -100px;
+
+    }
+    to{
+        top: 100px;
+    }
+    
