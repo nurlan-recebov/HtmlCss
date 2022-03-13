@@ -12,7 +12,22 @@
 </head>
 
 <body>
-    <div class="nur"></div>
+    <div class="items">
+        <div id="" class="item"></div>
+        <div id="nur" class="item"></div>
+        <div id="cahan" class="item"></div>
+    </div>
+    <button onclick="nurlan()"> left</button>
+    <button onclick="right()"> right</button>
+    <script>
+        function nurlan() {
+            document.getElementById("nur").style.left = "0px"
+        }
+
+        function right() {
+            document.getElementById("nur").style.left = "1000px"
+        }
+    </script>
 
 </body>
 
